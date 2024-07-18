@@ -1,0 +1,41 @@
+body{
+    background: url(https://as1.ftcdn.net/v2/jpg/02/11/07/58/1000_F_211075851_gSKybVNvDWgZnrIaleNsQfIz2mqPKaor.jpg);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: blanchedalmond;
+    
+    
+}
+h1{
+    color: brown;
+}
+#main{
+    border: 0px solid white;
+    height: 500px;
+    width: 400px;
+    text-align: center;
+    border-radius: 0px 200px 0px 200px;
+    margin-top: 20px;
+    padding: 60px;
+    margin-left: 455px;
+    background: rgba(0, 0, 0, 0.5);
+    
+
+}
+#btn{
+    color: aqua;
+    background: black;
+    border-radius: 22px 0px 22px 0px;
+    height: 50px;
+    width: 100px;
+    margin-top: 20px;
+}
+#un,#np,#fn,#ln,#cp,#ei{
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    color: aqua;
+}
+#btn:hover{
+    background: green;
+}
+

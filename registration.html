@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="../static/registration.css">
+</head>
+<body>
+    <center><h1>Register Here.......</h1></center>
+    <div id="main">
+        <form action="{{url_for('main.display')}}">
+            <center><h1>Register Now...</h1></center>
+            <label for="Username">Username:</label>
+            <input type="text" name="Username" id="un" placeholder="Enter the UserName"><br><br>
+            <label for="First name">First Name:</label>
+            <input type="text" name="First Name" id="fn" placeholder="Enter the First Name"><br><br>
+            <label for="Last name">First Name:</label>
+            <input type="text" name="Last Name" id="ln" placeholder="Enter the Last Name"><br><br>
+            <label for="E-mail Id">E-mail Id:</label>
+            <input type="text" name="E-mail Id" id="ei" placeholder="Enter the E-mail Id"><br><br>
+            <label for="New Password">New Password:</label>
+            <input type="Password" name="Password" id="np" placeholder="Enter New Password"><br><br>
+            <label for="Confrim Password">Confrim Password:</label>
+            <input type="Password" name="Confrim Password" id="np" placeholder="Enter Confrim Password"><br><br><br>
+            <button id="btn" type="Submit">Register</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>

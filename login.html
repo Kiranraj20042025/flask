@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="../static/login.css">
+</head>
+<body>
+    <div id="main">
+        <form action="{{url_for('auth.end')}}">
+            <label for="Username" id="kk">Username</label><br><br>
+            <input type="text" name="Username" id="un" placeholder="Enter the UserName"><br><br>
+            <label for="Password" id="pp">Password</label><br><br>
+            <input type="Password" name="Password" id="pw" placeholder="Enter the Password"><br><br><br>
+            <button id="btn" type="Submit">Login</button><br><br>
+
+        </form>
+    </div>
+    
+</body>
+</html>
